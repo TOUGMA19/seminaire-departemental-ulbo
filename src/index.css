@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Academic University Theme - Light Mode */
+    --background: 210 20% 98%;
+    --foreground: 215 50% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 50% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 50% 15%;
+
+    /* Deep Academic Blue */
+    --primary: 215 70% 25%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Light Blue Gray */
+    --secondary: 210 30% 94%;
+    --secondary-foreground: 215 50% 20%;
+
+    --muted: 210 20% 95%;
+    --muted-foreground: 215 20% 45%;
+
+    /* Gold Accent for Prestige */
+    --accent: 40 85% 50%;
+    --accent-foreground: 215 50% 15%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 215 25% 88%;
+    --input: 215 25% 88%;
+    --ring: 215 70% 25%;
+
+    --radius: 0.5rem;
+
+    /* Custom Semantic Tokens */
+    --hero-gradient-start: 215 70% 20%;
+    --hero-gradient-end: 215 60% 35%;
+    --gold: 40 85% 50%;
+    --gold-light: 40 85% 65%;
+    --navy-dark: 215 50% 12%;
+    --section-alt: 210 25% 96%;
+  }
+
+  .dark {
+    --background: 215 50% 8%;
+    --foreground: 210 30% 95%;
+
+    --card: 215 45% 12%;
+    --card-foreground: 210 30% 95%;
+
+    --popover: 215 45% 12%;
+    --popover-foreground: 210 30% 95%;
+
+    --primary: 40 85% 55%;
+    --primary-foreground: 215 50% 10%;
+
+    --secondary: 215 40% 18%;
+    --secondary-foreground: 210 30% 95%;
+
+    --muted: 215 40% 18%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 40 85% 55%;
+    --accent-foreground: 215 50% 10%;
+
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 210 30% 95%;
+
+    --border: 215 40% 20%;
+    --input: 215 40% 20%;
+    --ring: 40 85% 55%;
+
+    --hero-gradient-start: 215 60% 12%;
+    --hero-gradient-end: 215 50% 20%;
+    --gold: 40 85% 55%;
+    --gold-light: 40 85% 70%;
+    --navy-dark: 215 50% 6%;
+    --section-alt: 215 45% 10%;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
