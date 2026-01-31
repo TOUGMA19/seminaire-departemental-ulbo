@@ -54,7 +54,7 @@ const thematics = [
   },
   { 
     icon: Sparkles, 
-    title: "Applications Interdisciplinaires (Informatique et autres)", 
+    title: "Applications Interdisciplinaires", 
     color: "text-amber-600",
     description: "Mathématiques en physique, biologie et informatique."
   },
@@ -72,7 +72,7 @@ const ThematicsSection = () => {
             Thématiques du Séminaire
           </h2>
           <p className="font-body text-lg text-muted-foreground">
-            Le séminaire couvre un large spectre de domaines des mathématiques pures et appliquées.
+            Le séminaire couvre un large spectre de domaines des mathématiques pures et appliquées ainsi aue l'informatique.
           </p>
         </div>
 
