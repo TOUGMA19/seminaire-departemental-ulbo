@@ -89,7 +89,7 @@ const SubmissionSection = () => {
                 rel="noopener noreferrer"
               >
                 <FileUp className="mr-2 h-5 w-5" />
-                Soumettre sur EasyChair
+                Soumettre vôtre résumé
               </a>
             </Button>
           </div>
