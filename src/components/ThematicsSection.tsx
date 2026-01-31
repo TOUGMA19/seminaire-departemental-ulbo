@@ -54,7 +54,7 @@ const thematics = [
   },
   { 
     icon: Sparkles, 
-    title: "Applications Interdisciplinaires", 
+    title: "Applications Interdisciplinaires (Informatique et autres)", 
     color: "text-amber-600",
     description: "Mathématiques en physique, biologie et informatique."
   },
